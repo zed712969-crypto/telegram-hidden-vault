@@ -11,9 +11,11 @@ Privacy-sensitive chats shouldn't live behind an obvious padlock icon on the mai
 1. **Hide any chat cleanly:** Long-press a chat to enter Telegram 13.3 Selection Mode (green avatar checkmark + ActionMode top bar `✕ · Mute · Archive · Delete · ⋮`), open `⋮`, and tap **Hide in Vault**.
 2. **Pull down for Archive (100% unchanged):** Pulling down the chat list behaves identically to Telegram 13.3 — revealing **Archived Chats** with the vertical capsule arrow and flood ripple. Tapping it opens regular Archived Chats.
 3. **Hold Archive -> Biometric -> Vault:** Long-pressing the **Archived Chats** row triggers haptic confirmation, blurs the background with GPU `RenderEffect`, and presents a biometric prompt to unlock the hidden **Vault**.
-4. **Zero leakage & auto-lock:**
-   - Vault chats never appear in **Search Chats**, **All / folder counts**, or **Unread** totals while locked.
-   - Leaving the app (`onStop()`) or tapping **Lock** immediately collapses and re-locks the Vault.
+4. **Zero leakage, notifications & auto-lock:**
+   - **While Vault is locked:** zero system push notifications, no sound/vibration, no heads-up banners, no lock-screen previews, and Vault chats are completely excluded from **Search Chats**, forwarding/share targets, folder counters, and the app icon unread badge.
+   - **While Vault is unlocked:** hidden chats retain their own unread badges and previews strictly inside the `Vault` view.
+   - **Instant auto-lock:** leaving the app (`onStop()`) or tapping **Lock** immediately collapses and re-locks the Vault.
+   - **Production notification option:** designed so `NotificationsController` defaults to full suppression while locked, with an optional *"Silent anonymous alert"* mode (`"New activity"` without sender or message text).
 
 ## Demo Media & APK
 
