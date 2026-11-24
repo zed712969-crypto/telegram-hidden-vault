@@ -20,9 +20,9 @@ Privacy-sensitive chats shouldn't live behind an obvious padlock icon on the mai
 ## Demo Media & APK
 
 - **Showcase video (1080×1080, 60fps):** [Watch / Download `vault-showcase.mp4`](https://github.com/zed712969-crypto/telegram-hidden-vault/raw/main/Media/vault-showcase.mp4)
-- **Installable Android APK:** [Download `TelegramVault-demo.apk` (7.3 MB)](https://github.com/zed712969-crypto/telegram-hidden-vault/raw/main/Media/TelegramVault-demo.apk)
+- **Installable Android APK:** [Download `TelegramVault-demo.apk` (Releases)](https://github.com/zed712969-crypto/telegram-hidden-vault/releases/latest) · [Direct Raw APK (7.3 MB)](https://github.com/zed712969-crypto/telegram-hidden-vault/raw/main/Media/TelegramVault-demo.apk)
 
-> **Note:** GitHub's mobile app previews raw repository files as text; use the direct download links above (or open in a mobile browser).
+> **Note:** GitHub's mobile app previews raw files inside repository folders as text; use **Releases** or the direct links above (or open in a mobile browser).
 
 ## Architecture & Key Files
 

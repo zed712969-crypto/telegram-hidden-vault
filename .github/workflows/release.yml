@@ -1,0 +1,26 @@
+name: Publish Release APK
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Publish GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${GITHUB_REF_NAME}" \
+            Media/TelegramVault-demo.apk \
+            Media/vault-showcase.mp4 \
+            --title "Telegram Hidden Vault ${GITHUB_REF_NAME}" \
+            --notes "Installable Android demo APK and 1080x1080 60fps showcase video for Telegram Android 13.3 Hidden Vault (Second Bottom inside Archived Chats)."
