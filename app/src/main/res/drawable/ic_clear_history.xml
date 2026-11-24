@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Telegram 13.3 Clear History broom icon -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M18.6,4.6L11.6,11.6M9.0,10.2L13.8,15.0C12.2,17.8 9.2,19.5 5.4,19.4L4.6,16.8C4.4,13.6 6.2,11.0 9.0,10.2Z"
+        android:strokeWidth="1.8"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

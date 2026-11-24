@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Telegram 13.3 Chats tab: two overlapping rounded speech bubbles -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M10.2,4.2C5.8,4.2 2.3,7.3 2.3,11.1C2.3,12.7 2.9,14.2 4.0,15.4L3.1,18.2C2.95,18.65 3.4,19.05 3.85,18.85L6.8,17.5C7.85,17.85 9.0,18.0 10.2,18.0C14.6,18.0 18.1,14.9 18.1,11.1C18.1,7.3 14.6,4.2 10.2,4.2Z" />
+    <path
+        android:fillAlpha="0.65"
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M19.3,11.3C19.3,15.55 15.35,19.0 10.45,19.0C9.75,19.0 9.05,18.92 8.4,18.78C9.75,19.65 11.4,20.15 13.2,20.15C14.3,20.15 15.35,19.95 16.3,19.6L19.0,20.8C19.4,20.98 19.8,20.62 19.68,20.2L18.9,17.65C20.2,16.45 21.0,14.85 21.0,13.1C21.0,11.8 20.35,10.6 19.3,9.7C19.3,10.22 19.3,10.76 19.3,11.3Z" />
+</vector>

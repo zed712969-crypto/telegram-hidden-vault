@@ -1,0 +1,11 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Telegram 13.3 Archived Chats avatar icon: rounded square box with top bar and downward arrow -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M6.5,4H17.5C19.15,4 20.5,5.35 20.5,7V17C20.5,18.65 19.15,20 17.5,20H6.5C4.85,20 3.5,18.65 3.5,17V7C3.5,5.35 4.85,4 6.5,4ZM6.2,6.4C5.87,6.4 5.6,6.67 5.6,7V8.2C5.6,8.53 5.87,8.8 6.2,8.8H17.8C18.13,8.8 18.4,8.53 18.4,8.2V7C18.4,6.67 18.13,6.4 17.8,6.4H6.2ZM11.1,10.5V14.2L9.55,12.65C9.2,12.3 8.63,12.3 8.28,12.65C7.93,13.0 7.93,13.57 8.28,13.92L11.36,17.0C11.71,17.35 12.29,17.35 12.64,17.0L15.72,13.92C16.07,13.57 16.07,13.0 15.72,12.65C15.37,12.3 14.8,12.3 14.45,12.65L12.9,14.2V10.5C12.9,10.0 12.5,9.6 12,9.6C11.5,9.6 11.1,10.0 11.1,10.5Z" />
+</vector>

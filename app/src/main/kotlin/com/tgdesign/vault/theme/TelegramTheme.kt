@@ -1,0 +1,96 @@
+package com.tgdesign.vault.theme
+
+/**
+ * Color palette mirroring Telegram Android 13.3 Night and Day themes.
+ */
+data class TelegramPalette(
+    val isDark: Boolean,
+    val topBar: Int,
+    val background: Int,
+    val surface: Int,
+    val elevated: Int,
+    val folderTrackBg: Int,
+    val folderActivePillBg: Int,
+    val pinnedPillBg: Int,
+    val fabSecondaryBg: Int,
+    val glassSurface: Int,
+    val glassBorder: Int,
+    val glassLens: Int,
+    val glassTabInactive: Int,
+    val accent: Int,
+    val accentStrong: Int,
+    val textPrimary: Int,
+    val textSecondary: Int,
+    val divider: Int,
+    val vaultHeader: Int,
+    val badgeBg: Int,
+    val badgeMutedBg: Int,
+    val badgeText: Int,
+    val scrim: Int,
+    val danger: Int,
+    val checkGreen: Int,
+    val archivePullBg: Int,
+    val archivePullActiveBg: Int
+)
+
+object TelegramTheme {
+    val Dark = TelegramPalette(
+        isDark = true,
+        topBar = 0xFF181818.toInt(),
+        background = 0xFF181818.toInt(),
+        surface = 0xFF181818.toInt(),
+        elevated = 0xFF272727.toInt(),
+        folderTrackBg = 0xFF222222.toInt(),
+        folderActivePillBg = 0xFF243849.toInt(),
+        pinnedPillBg = 0xFF242424.toInt(),
+        fabSecondaryBg = 0xFF2C2C2C.toInt(),
+        glassSurface = 0xEA242424.toInt(),
+        glassBorder = 0x22FFFFFF,
+        glassLens = 0xFF263848.toInt(),
+        glassTabInactive = 0xFFEAEAEA.toInt(),
+        accent = 0xFF39A0EC.toInt(),
+        accentStrong = 0xFF2DA0EB.toInt(),
+        textPrimary = 0xFFFFFFFF.toInt(),
+        textSecondary = 0xFF8C8C8C.toInt(),
+        divider = 0x00000000,
+        vaultHeader = 0xFF1B2632.toInt(),
+        badgeBg = 0xFF2DA0EB.toInt(),
+        badgeMutedBg = 0xFF3A3A3A.toInt(),
+        badgeText = 0xFFFFFFFF.toInt(),
+        scrim = 0xFF06090D.toInt(),
+        danger = 0xFFEF5350.toInt(),
+        checkGreen = 0xFF4EA4F5.toInt(),
+        archivePullBg = 0xFF242424.toInt(),
+        archivePullActiveBg = 0xFF569FD6.toInt()
+    )
+
+    val Light = TelegramPalette(
+        isDark = false,
+        topBar = 0xFFFFFFFF.toInt(),
+        background = 0xFFF2F3F5.toInt(),
+        surface = 0xFFFFFFFF.toInt(),
+        elevated = 0xFFF1F2F4.toInt(),
+        folderTrackBg = 0xFFF1F2F4.toInt(),
+        folderActivePillBg = 0xFFDCEEFF.toInt(),
+        pinnedPillBg = 0xFFF1F2F4.toInt(),
+        fabSecondaryBg = 0xFFFFFFFF.toInt(),
+        glassSurface = 0xEEFFFFFF.toInt(),
+        glassBorder = 0x1A000000,
+        glassLens = 0xFFDCEEFF.toInt(),
+        glassTabInactive = 0xFF222222.toInt(),
+        accent = 0xFF3390EC.toInt(),
+        accentStrong = 0xFF2DA0EB.toInt(),
+        textPrimary = 0xFF1C1C1E.toInt(),
+        textSecondary = 0xFF8D969E.toInt(),
+        divider = 0x00000000,
+        vaultHeader = 0xFFEBF4FD.toInt(),
+        badgeBg = 0xFF3390EC.toInt(),
+        badgeMutedBg = 0xFFC4C9CC.toInt(),
+        badgeText = 0xFFFFFFFF.toInt(),
+        scrim = 0xFF0A1420.toInt(),
+        danger = 0xFFE53935.toInt(),
+        checkGreen = 0xFF4CAF50.toInt(),
+        archivePullBg = 0xFFB0B7BE.toInt(),
+        archivePullActiveBg = 0xFF569FD6.toInt()
+    )
+}

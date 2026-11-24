@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Telegram 13.3 ActionMode mute icon (outlined speaker + slash) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M9.6,7.1L13.5,4.2V11.2M13.5,15.5V19.8L8.4,15.8H5.2C4.55,15.8 4.0,15.25 4.0,14.6V9.4C4.0,8.75 4.55,8.2 5.2,8.2H6.7"
+        android:strokeWidth="1.9"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M16.8,8.8C17.8,9.8 18.3,10.9 18.3,12.0C18.3,12.8 18.0,13.6 17.5,14.3M19.3,6.4C20.9,8.0 21.7,9.9 21.7,12.0C21.7,13.6 21.2,15.1 20.3,16.4"
+        android:strokeWidth="1.9"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M3.5,3.5L20.5,20.5"
+        android:strokeWidth="1.9"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round" />
+</vector>
